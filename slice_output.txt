@@ -1,0 +1,522 @@
+Model Performance on Data Slices
+================================================================================
+
+
+Feature: workclass
+----------------------------------------
+  Value: Private
+    Samples: 4578
+    Precision: 0.8222
+    Recall: 0.5175
+    F1 (Fbeta): 0.6352
+  Value: State-gov
+    Samples: 254
+    Precision: 0.7576
+    Recall: 0.6849
+    F1 (Fbeta): 0.7194
+  Value: Self-emp-not-inc
+    Samples: 498
+    Precision: 0.6903
+    Recall: 0.4968
+    F1 (Fbeta): 0.5778
+  Value: Self-emp-inc
+    Samples: 212
+    Precision: 0.8252
+    Recall: 0.7203
+    F1 (Fbeta): 0.7692
+  Value: Federal-gov
+    Samples: 191
+    Precision: 0.8605
+    Recall: 0.5286
+    F1 (Fbeta): 0.6549
+  Value: Local-gov
+    Samples: 387
+    Precision: 0.7556
+    Recall: 0.6182
+    F1 (Fbeta): 0.6800
+  Value: ?
+    Samples: 389
+    Precision: 0.6500
+    Recall: 0.3095
+    F1 (Fbeta): 0.4194
+  Value: Without-pay
+    Samples: 4
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+
+Feature: education
+----------------------------------------
+  Value: Some-college
+    Samples: 1485
+    Precision: 0.9048
+    Recall: 0.2744
+    F1 (Fbeta): 0.4211
+  Value: HS-grad
+    Samples: 2085
+    Precision: 1.0000
+    Recall: 0.1652
+    F1 (Fbeta): 0.2836
+  Value: Bachelors
+    Samples: 1053
+    Precision: 0.7316
+    Recall: 0.8178
+    F1 (Fbeta): 0.7723
+  Value: Masters
+    Samples: 369
+    Precision: 0.8037
+    Recall: 0.8502
+    F1 (Fbeta): 0.8263
+  Value: Assoc-acdm
+    Samples: 198
+    Precision: 0.8333
+    Recall: 0.4255
+    F1 (Fbeta): 0.5634
+  Value: 7th-8th
+    Samples: 141
+    Precision: 1.0000
+    Recall: 0.0000
+    F1 (Fbeta): 0.0000
+  Value: 11th
+    Samples: 225
+    Precision: 1.0000
+    Recall: 0.2727
+    F1 (Fbeta): 0.4286
+  Value: Assoc-voc
+    Samples: 273
+    Precision: 0.9091
+    Recall: 0.3175
+    F1 (Fbeta): 0.4706
+  Value: Prof-school
+    Samples: 116
+    Precision: 0.8352
+    Recall: 0.9048
+    F1 (Fbeta): 0.8686
+  Value: 9th
+    Samples: 115
+    Precision: 1.0000
+    Recall: 0.3333
+    F1 (Fbeta): 0.5000
+  Value: 5th-6th
+    Samples: 62
+    Precision: 1.0000
+    Recall: 0.5000
+    F1 (Fbeta): 0.6667
+  Value: 10th
+    Samples: 183
+    Precision: 1.0000
+    Recall: 0.0833
+    F1 (Fbeta): 0.1538
+  Value: Doctorate
+    Samples: 77
+    Precision: 0.8393
+    Recall: 0.8246
+    F1 (Fbeta): 0.8319
+  Value: 12th
+    Samples: 98
+    Precision: 1.0000
+    Recall: 0.4000
+    F1 (Fbeta): 0.5714
+  Value: 1st-4th
+    Samples: 23
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Preschool
+    Samples: 10
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+
+Feature: marital-status
+----------------------------------------
+  Value: Divorced
+    Samples: 920
+    Precision: 0.9677
+    Recall: 0.2913
+    F1 (Fbeta): 0.4478
+  Value: Married-civ-spouse
+    Samples: 2950
+    Precision: 0.7852
+    Recall: 0.5973
+    F1 (Fbeta): 0.6785
+  Value: Never-married
+    Samples: 2126
+    Precision: 1.0000
+    Recall: 0.2233
+    F1 (Fbeta): 0.3651
+  Value: Separated
+    Samples: 209
+    Precision: 1.0000
+    Recall: 0.3684
+    F1 (Fbeta): 0.5385
+  Value: Widowed
+    Samples: 208
+    Precision: 1.0000
+    Recall: 0.1053
+    F1 (Fbeta): 0.1905
+  Value: Married-spouse-absent
+    Samples: 96
+    Precision: 1.0000
+    Recall: 0.1250
+    F1 (Fbeta): 0.2222
+  Value: Married-AF-spouse
+    Samples: 4
+    Precision: 1.0000
+    Recall: 0.0000
+    F1 (Fbeta): 0.0000
+
+Feature: occupation
+----------------------------------------
+  Value: Adm-clerical
+    Samples: 726
+    Precision: 0.7045
+    Recall: 0.3229
+    F1 (Fbeta): 0.4429
+  Value: Exec-managerial
+    Samples: 838
+    Precision: 0.8391
+    Recall: 0.6700
+    F1 (Fbeta): 0.7451
+  Value: Machine-op-inspct
+    Samples: 378
+    Precision: 0.7333
+    Recall: 0.2340
+    F1 (Fbeta): 0.3548
+  Value: Craft-repair
+    Samples: 821
+    Precision: 0.8413
+    Recall: 0.2928
+    F1 (Fbeta): 0.4344
+  Value: Prof-specialty
+    Samples: 828
+    Precision: 0.7995
+    Recall: 0.7730
+    F1 (Fbeta): 0.7860
+  Value: Sales
+    Samples: 729
+    Precision: 0.7609
+    Recall: 0.5469
+    F1 (Fbeta): 0.6364
+  Value: Handlers-cleaners
+    Samples: 273
+    Precision: 0.5714
+    Recall: 0.3333
+    F1 (Fbeta): 0.4211
+  Value: Other-service
+    Samples: 667
+    Precision: 1.0000
+    Recall: 0.1923
+    F1 (Fbeta): 0.3226
+  Value: Protective-serv
+    Samples: 136
+    Precision: 0.6471
+    Recall: 0.2619
+    F1 (Fbeta): 0.3729
+  Value: Priv-house-serv
+    Samples: 26
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Transport-moving
+    Samples: 317
+    Precision: 0.7727
+    Recall: 0.2656
+    F1 (Fbeta): 0.3953
+  Value: ?
+    Samples: 389
+    Precision: 0.6500
+    Recall: 0.3095
+    F1 (Fbeta): 0.4194
+  Value: Farming-fishing
+    Samples: 193
+    Precision: 0.6000
+    Recall: 0.3214
+    F1 (Fbeta): 0.4186
+  Value: Tech-support
+    Samples: 189
+    Precision: 0.9091
+    Recall: 0.3922
+    F1 (Fbeta): 0.5479
+  Value: Armed-Forces
+    Samples: 3
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+
+Feature: relationship
+----------------------------------------
+  Value: Not-in-family
+    Samples: 1702
+    Precision: 0.9808
+    Recall: 0.2713
+    F1 (Fbeta): 0.4250
+  Value: Wife
+    Samples: 322
+    Precision: 0.7677
+    Recall: 0.5315
+    F1 (Fbeta): 0.6281
+  Value: Husband
+    Samples: 2590
+    Precision: 0.7878
+    Recall: 0.6060
+    F1 (Fbeta): 0.6850
+  Value: Unmarried
+    Samples: 702
+    Precision: 1.0000
+    Recall: 0.2000
+    F1 (Fbeta): 0.3333
+  Value: Own-child
+    Samples: 1019
+    Precision: 1.0000
+    Recall: 0.0588
+    F1 (Fbeta): 0.1111
+  Value: Other-relative
+    Samples: 178
+    Precision: 0.7500
+    Recall: 0.3750
+    F1 (Fbeta): 0.5000
+
+Feature: race
+----------------------------------------
+  Value: White
+    Samples: 5595
+    Precision: 0.8011
+    Recall: 0.5329
+    F1 (Fbeta): 0.6400
+  Value: Black
+    Samples: 599
+    Precision: 0.7907
+    Recall: 0.5231
+    F1 (Fbeta): 0.6296
+  Value: Other
+    Samples: 55
+    Precision: 0.6667
+    Recall: 0.6667
+    F1 (Fbeta): 0.6667
+  Value: Asian-Pac-Islander
+    Samples: 193
+    Precision: 0.7500
+    Recall: 0.7258
+    F1 (Fbeta): 0.7377
+  Value: Amer-Indian-Eskimo
+    Samples: 71
+    Precision: 0.8333
+    Recall: 0.5000
+    F1 (Fbeta): 0.6250
+
+Feature: sex
+----------------------------------------
+  Value: Female
+    Samples: 2126
+    Precision: 0.7965
+    Recall: 0.3863
+    F1 (Fbeta): 0.5202
+  Value: Male
+    Samples: 4387
+    Precision: 0.7973
+    Recall: 0.5673
+    F1 (Fbeta): 0.6629
+
+Feature: native-country
+----------------------------------------
+  Value: United-States
+    Samples: 5870
+    Precision: 0.8040
+    Recall: 0.5261
+    F1 (Fbeta): 0.6361
+  Value: Mexico
+    Samples: 114
+    Precision: 1.0000
+    Recall: 0.3333
+    F1 (Fbeta): 0.5000
+  Value: Puerto-Rico
+    Samples: 22
+    Precision: 0.8000
+    Recall: 0.6667
+    F1 (Fbeta): 0.7273
+  Value: El-Salvador
+    Samples: 20
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: ?
+    Samples: 125
+    Precision: 0.7000
+    Recall: 0.6774
+    F1 (Fbeta): 0.6885
+  Value: Columbia
+    Samples: 6
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Poland
+    Samples: 14
+    Precision: 0.3333
+    Recall: 0.5000
+    F1 (Fbeta): 0.4000
+  Value: Cambodia
+    Samples: 3
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Germany
+    Samples: 32
+    Precision: 0.8182
+    Recall: 0.6923
+    F1 (Fbeta): 0.7500
+  Value: Philippines
+    Samples: 35
+    Precision: 1.0000
+    Recall: 0.6875
+    F1 (Fbeta): 0.8148
+  Value: Canada
+    Samples: 22
+    Precision: 0.6250
+    Recall: 0.6250
+    F1 (Fbeta): 0.6250
+  Value: Ecuador
+    Samples: 5
+    Precision: 1.0000
+    Recall: 0.5000
+    F1 (Fbeta): 0.6667
+  Value: Italy
+    Samples: 14
+    Precision: 0.7500
+    Recall: 0.7500
+    F1 (Fbeta): 0.7500
+  Value: Cuba
+    Samples: 19
+    Precision: 1.0000
+    Recall: 0.8000
+    F1 (Fbeta): 0.8889
+  Value: Iran
+    Samples: 12
+    Precision: 0.6000
+    Recall: 0.6000
+    F1 (Fbeta): 0.6000
+  Value: Jamaica
+    Samples: 13
+    Precision: 0.0000
+    Recall: 1.0000
+    F1 (Fbeta): 0.0000
+  Value: Haiti
+    Samples: 6
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: South
+    Samples: 13
+    Precision: 0.2000
+    Recall: 0.5000
+    F1 (Fbeta): 0.2857
+  Value: Taiwan
+    Samples: 11
+    Precision: 0.8000
+    Recall: 1.0000
+    F1 (Fbeta): 0.8889
+  Value: Dominican-Republic
+    Samples: 8
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Ireland
+    Samples: 5
+    Precision: 1.0000
+    Recall: 0.0000
+    F1 (Fbeta): 0.0000
+  Value: Japan
+    Samples: 11
+    Precision: 1.0000
+    Recall: 0.7500
+    F1 (Fbeta): 0.8571
+  Value: Scotland
+    Samples: 3
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: India
+    Samples: 21
+    Precision: 0.7000
+    Recall: 0.8750
+    F1 (Fbeta): 0.7778
+  Value: Trinadad&Tobago
+    Samples: 3
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Hungary
+    Samples: 3
+    Precision: 1.0000
+    Recall: 0.5000
+    F1 (Fbeta): 0.6667
+  Value: England
+    Samples: 14
+    Precision: 0.7500
+    Recall: 0.7500
+    F1 (Fbeta): 0.7500
+  Value: Laos
+    Samples: 4
+    Precision: 1.0000
+    Recall: 0.0000
+    F1 (Fbeta): 0.0000
+  Value: Hong
+    Samples: 8
+    Precision: 0.5000
+    Recall: 1.0000
+    F1 (Fbeta): 0.6667
+  Value: Greece
+    Samples: 7
+    Precision: 1.0000
+    Recall: 0.5000
+    F1 (Fbeta): 0.6667
+  Value: Portugal
+    Samples: 6
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Guatemala
+    Samples: 13
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: China
+    Samples: 18
+    Precision: 0.8750
+    Recall: 0.8750
+    F1 (Fbeta): 0.8750
+  Value: France
+    Samples: 5
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Nicaragua
+    Samples: 7
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Vietnam
+    Samples: 5
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Thailand
+    Samples: 5
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Peru
+    Samples: 5
+    Precision: 1.0000
+    Recall: 0.0000
+    F1 (Fbeta): 0.0000
+  Value: Honduras
+    Samples: 4
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000
+  Value: Yugoslavia
+    Samples: 2
+    Precision: 1.0000
+    Recall: 1.0000
+    F1 (Fbeta): 1.0000

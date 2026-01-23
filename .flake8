@@ -1,0 +1,15 @@
+[flake8]
+ignore = E266, E501, W503
+max-line-length = 127
+max-complexity = 10
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    .ipynb_checkpoints
+per-file-ignores =
+    # Ignore "imported but unused" errors in __init__.py files
+    */__init__.py: F401
+    # Ignore sanity check script (it's a tool, not app code)
+    sanitycheck.py: E,F,W,C

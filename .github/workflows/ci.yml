@@ -1,0 +1,49 @@
+name: Production CI/CD
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:  # Allows you to click "Run workflow" manually in GitHub Actions tab
+
+jobs:
+  test:
+    name: Test (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15  # Stops the job if it hangs, preventing wasted minutes
+
+    strategy:
+      fail-fast: false   # If Python 3.13 fails, allow Python 3.11 to finish
+      matrix:
+        python-version: ["3.9"]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip' # Caches dependencies to make subsequent runs much faster
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install flake8 pytest httpx
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Lint with Flake8 (Critical)
+        run: |
+          # Stop the build if there are syntax errors or undefined names
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: Lint with Flake8 (Style & Complexity)
+        run: |
+          # Treat style issues as warnings (exit-zero) rather than failures
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+      - name: Run Tests with Pytest
+        run: |
+          pytest tests/ -v
