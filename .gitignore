@@ -1,4 +1,2 @@
 .idea/
-/model/model.pkl
-/model/encoder.pkl
-/model/lb.pkl
+.DS_Store
