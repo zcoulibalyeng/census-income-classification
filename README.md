@@ -51,7 +51,7 @@ census-income-classifier/
 ## ⚡ Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/census-income-classifier.git
+git clone https://github.com/zcoulibalyeng/census-income-classifier.git
 cd census-income-classifier
 
 # Create virtual environment
