@@ -9,7 +9,6 @@
 
 | Component | Description | Status | Link |
 |-----------|-------------|--------|------|
-| **Frontend** | Interactive web interface for predictions | ![Deployed](https://img.shields.io/badge/status-live-brightgreen) | [Streamlit App](https://levisstrauss-census-income-classifier-frontendapp-lefxu3.streamlit.app/) |
 | **API Documentation** | OpenAPI/Swagger interactive docs | ![Deployed](https://img.shields.io/badge/status-live-brightgreen) | [FastAPI Swagger](https://census-income-classifier.onrender.com/docs) |
 | **Production API** | RESTful prediction endpoint | ![Deployed](https://img.shields.io/badge/status-live-brightgreen) | [Render Deployment](https://census-income-classifier.onrender.com/) |
 
